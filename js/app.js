@@ -84,8 +84,7 @@
    * Add a click event listener to btn3
    * the handler method will be a reference to the setMyLightGreen function
    */
-   btn3.addEventListener('click', setMyLightGreen
-   );
+   btn3.addEventListener('click', setMyLightGreen);
 
   /*
    * Add a click event listener to btn4
@@ -262,6 +261,6 @@
    *
    * Hint: Do not declare a new function expression as an event handler.
    */
-
+   btn15.addEventListener('click',setMyLightClass.bind(btn15, event,'light-green'));
 
 }(window));
