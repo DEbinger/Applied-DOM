@@ -242,7 +242,7 @@
    *     event, 'light-green'
    */
    btn13.addEventListener('click', function(event){
-      setMyLightClass.bind(this);
+      setMyLightClass.bind(this)(event,'light-green');
    });
 
   /*
@@ -252,7 +252,7 @@
    * on the setMyLightGreen function
    */
    btn14.addEventListener('click',function(){
-      setMyLightGreen.bind(this);
+      setMyLightGreen.bind(this)();
    });
 
   /*
